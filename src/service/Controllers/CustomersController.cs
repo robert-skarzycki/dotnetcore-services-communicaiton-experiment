@@ -13,12 +13,10 @@ namespace service.Controllers
         private static Customer[] _customers = new[] {
                 new Customer{
                     Id = 1,
-                    FirstName="Jan",
                     LastName="Kowalski",
                     DateOfBirth = new DateTime(1990,1,1)},
             new Customer{
                 Id = 2,
-                FirstName = "Piotr",
                  LastName="Nowak",DateOfBirth = new DateTime(1980,1,1)} };
 
         // GET api/values
