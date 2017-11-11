@@ -17,7 +17,7 @@ namespace client
 
                 var customer = JsonConvert.DeserializeObject<Customer>(rawCustomer);
 
-                Console.WriteLine($"Imię: {customer.FirstName}. Nazwisko: {customer.LastName}");
+                Console.WriteLine($"Data urodzenia: {customer.DateOfBirth}. Nazwisko: {customer.LastName}");
             }
         }
     }
